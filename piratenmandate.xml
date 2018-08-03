@@ -411,16 +411,6 @@
   </bundesland>
 
   <bundesland name="Nordrhein-Westfalen" gs="05000000" localpirates="http://www.piratenpartei-nrw.de/"> <!-- Danke @piratenproll für die Daten -->
-    <gebiet type="Landschaftsverband" name="Landschaftsverband Rheinland" arbkey="1">
-      <parlament name="Landschaftsversammlung" seats="116" ris="https://dom.lvr.de/lvis/lvr_publik.nsf/WEB1LVers?ReadForm&amp;wp=13">
-        <mandat type="pirat" multi="2">Rudi Ernst Lennartz</mandat>
-        <mandat type="pirat" multi="2">Kai Hemsteeg</mandat>
-        <fraktion type="gemeinsam" name="FREIE WÄHLER/PIRATEN">
-          <partner name="FREIE WÄHLER" partei="FW/UWG/etc." num="3" />
-        </fraktion>
-        <story source="http://www.piratenpartei-nrw.de/2014/06/09/piraten-waehlen-mitglieder-fuer-regionale-vertretungen-in-nordrhein-westfalen/">Die beiden „Landschaftsverbände“ in Nordrhein-Westfalen, die jeweils grob die Hälfte des Gebiets und der Bevölkerung abdecken, sind Gebietskörperschaften der kommunalen Selbstverwaltung und haben je eine „Landschaftsversammlung“ als Parlament. Diese wird nicht direkt gewählt, sondern nach den Wahlergebnissen bei allgemeinen Kommunalwahlen nach Proporz besetzt. Die Piraten haben nach den Kommunalwahlen am 25. Mai 2014 Anspruch auf zwei Sitze. Ähnlich den Bezirkstagen in Bayern sind sie hauptsächlich für die Trägerschaft der Sozial-, Behinderten- und Jugendhilfe, insbesondere für Fach- und psychiatrische Krankenhäuser sowie Förderschulen zuständig.</story>
-      </parlament>
-    </gebiet>
     <gebiet type="Landschaftsverband" name="Landschaftsverband Westfalen-Lippe" arbkey="2">
       <parlament name="Landschaftsversammlung" seats="125" ris="https://www.lwl.org/bi-lwl/allris.net.asp">
         <oa url="http://openantrag.de/westfalen-lippe" />
@@ -434,7 +424,6 @@
       <parlament name="Ruhrparlament" seats="138" ris="https://rvr-online.more-rubin1.de/recherche.php">
         <mandat type="pirat">Frank Fitzke</mandat>
         <mandat type="pirat">Dieter McDevitt</mandat>
-        <mandat type="pirat">Kai Hemsteeg</mandat>
         <mandat type="pirat">Dirk Pullem</mandat>
         <fraktion type="piraten" />
         <story source="http://www.piratenpartei-nrw.de/2014/06/09/piraten-waehlen-mitglieder-fuer-regionale-vertretungen-in-nordrhein-westfalen/">Der Regionalverband Ruhr ist ein Zusammenschluss einiger kreisfreier Städte und Landkreise im Ruhrgebiet, dessen Gebietsgrenzen weder mit denen der fünf Regierungsbezirke noch mit denen der beiden Landschaftsverbände in Nordrhein-Westfalen übereinstimmen. Das Ruhrparlament wird nicht direkt gewählt, sondern nach den Wahlergebnissen bei allgemeinen Kommunalwahlen nach Proporz besetzt. Die Piraten haben nach den Kommunalwahlen am 25. Mai 2014 Anspruch auf zwei Sitze. Das Ruhrparlament war historisch für die Planung der Kohleabbaus zuständig, heute befasst es sich hauptsächlich mit Regionsmarketing, Umwelt- und Freizeitförderung sowie Raumplanung und Geodaten. Wegen enorm vieler Überhangmandate ist das Ruhrparlament aktuell extrem groß.</story>
@@ -457,16 +446,6 @@
         </parlament>
       </gebiet>
       <gebiet type="Kreisfreie Stadt" name="Essen" gs="05113000" localpirates="https://blog.piratenpartei-nrw.de/essen/">
-        <parlament name="Stadtrat" seats="90" ris="https://ris.essen.de/">
-          <oa url="http://openantrag.de/essen" />
-          <mandat type="pirat" email="kai.hemsteeg@piratenpartei-nrw.de">Kai Hemsteeg</mandat>
-          <mandat type="pirat">Wilfried Adamy</mandat>
-          <fraktion type="gemeinsam" name="PARTEI-PIRATEN">
-            <partner partei="Die PARTEI" num="1" />
-            <partner partei="Einzelbewerber" num="1" />
-          </fraktion>
-          <story source="http://www.die-erle.de/index.php/information-und-beitrag/erlenschlagzeilen/830-essen-bekommt-mit-den-partei-piraten-eine-neue-ratsfraktion.html">Bei der Kommunalwahl am 25. Mai 2014 wurden 1,9% der Stimmen erreicht und eine Fraktionsgemeinschaft mit einem Stadtverordneten der PARTEI und einer ausgetretenen Ex-Linken eingegangen.</story>
-        </parlament>
         <gebiet type="Stadtbezirk" name="Essen I" localkey="1">
           <parlament name="Bezirksvertretung" seats="19" ris="https://ris.essen.de/gremien/?__=LfyIfvCWq8SpBQj0MmyPaxCYv8Vm6Ti1Oi0Hb0KXrAVo5Pi0KezGcuDWtFUn4Ql0OGJ">
             <mandat type="pirat">Nils Malescha</mandat>
@@ -586,7 +565,8 @@
         <gebiet type="Stadt" name="Velbert" gs="05158032" localpirates="http://velbert.piratenpartei-nrw.de/">
           <parlament name="Stadtrat" seats="62" ris="https://sdnet.velbert.de/">
             <mandat type="pirat" email="martin.schwarz@piratenpartei-nrw.de">Martin Schwarz</mandat>
-            <mandat type="pirat">Martin Leonhardt</mandat>
+	    <mandat type="pirat">Thomas Küppers</mandat>
+	    <mandat type="transfer" from="FW/UWG/etc.">Helmut Stiegelmeier</mandat>  
             <fraktion type="piraten" />
             <story>Bei der Kommunalwahl am 25. Mai 2014 wurden 2,5% der Stimmen erreicht.</story>
           </parlament>
